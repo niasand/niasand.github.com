@@ -1,5 +1,5 @@
 Host github.com
   User git
   StrictHostKeyChecking no
-  IdentityFile ~/.ssh/travis/id_rsa
+  IdentityFile ~/.ssh/id_rsa
   IdentitiesOnly yes
