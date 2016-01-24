@@ -26,7 +26,6 @@ install:
 - npm install hexo-deployer-git --save
 
 script:
-- cd blog
 - hexo clean
 - hexo g
 - hexo d
