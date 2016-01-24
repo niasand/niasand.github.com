@@ -6,4 +6,4 @@
 travis learn
 
 
-rename the repo
+rename the repo (at local)
