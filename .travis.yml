@@ -1,24 +1,19 @@
 language: node_js
-
 node_js:
 - '0.12'
-
 branches:
   only:
   - blog
-
-
 before_install:
-- openssl aes-256-cbc -K $encrypted_a82aff0ff8f8_key -iv $encrypted_a82aff0ff8f8_iv
-  -in id_rsa.enc -out id_rsa -d
+- openssl aes-256-cbc -K $encrypted_cafd589a5af4_key -iv $encrypted_cafd589a5af4_iv
+  -in id_rsa.enc -out ~\/.ssh/travis/id_rsa -d
 
-- chmod 600 ./id_rsa
+- chmod 600 ~\/.ssh/travis/id_rsa
 - eval $(ssh-agent)
-- ssh-add ./id_rsa
+- ssh-add ~\/.ssh/travis/id_rsa
 - cp ssh_config ~/.ssh/config
 - git config --global user.name "bb eight"
 - git config --global user.email 156516952@qq.com
-
 install:
 - npm install hexo-cli -g
 - npm install
@@ -37,8 +32,9 @@ install:
 - npm install hexo-renderer-stylus@0.2 --save
 - npm install hexo-generator-feed@1 --save
 - npm install hexo-generator-sitemap@1 --save
-
 script:
 - hexo clean
 - hexo g
 - hexo d
+- git push
+- git log
