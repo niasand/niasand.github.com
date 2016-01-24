@@ -1,0 +1,3 @@
+before_install:
+- openssl aes-256-cbc -K $encrypted_a82aff0ff8f8_key -iv $encrypted_a82aff0ff8f8_iv
+  -in id_rsa.enc -out id_rsa -d
