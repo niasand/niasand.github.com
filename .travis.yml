@@ -20,12 +20,14 @@ before_install:
 - git config --global user.email 156516952@qq.com
 
 install:
+- cd blog
 - npm install hexo-cli -g
 - npm install
 - npm install hexo-generator-feed --save
 - npm install hexo-deployer-git --save
 
 script:
+- cd blog
 - hexo clean
 - hexo g
 - hexo d
