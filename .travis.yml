@@ -19,7 +19,7 @@ before_install:
 - ssh-add ./id_rsa
 - cp ssh_config ~/.ssh/config //修改 git 信息
 - git config --global user.name "bb eight"
-- git config --global user.email tencrance@gmail.com
+- git config --global user.email 156516952@qq.com
 
 # 配置 Hexo
 install:
