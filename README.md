@@ -1,6 +1,6 @@
-# niasand.github.com
+# niasand.github.io
 
-[![Build Status](https://travis-ci.org/niasand/niasand.github.com.svg?branch=blog)](https://travis-ci.org/niasand/niasand.github.com)
+[![Build Status](https://travis-ci.org/niasand/niasand.github.io.svg?branch=blog)](https://travis-ci.org/niasand/niasand.github.io)
 
 
 travis learn
