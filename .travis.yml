@@ -14,6 +14,7 @@ before_install:
 - cp ssh_config ~/.ssh/config
 - git config --global user.name "bb eight"
 - git config --global user.email 156516952@qq.com
+
 install:
 - npm install hexo-cli -g
 - npm install
@@ -32,9 +33,24 @@ install:
 - npm install hexo-renderer-stylus@0.2 --save
 - npm install hexo-generator-feed@1 --save
 - npm install hexo-generator-sitemap@1 --save
+
+env:
+  global:
+    - GH_REF: github.com/niasand/niasand.github.io.git  #git@github.com:niasand/niasand.github.io.git
+    - secure: "aS+Lz4zTeQdgokKdz1b1qzGdfN1X01bBhktdosnJkE5HNfikXelC0PazP6KgTm0k1ZRR6ruvP4DThxWz1l/kURawWyFKXCJ/2EZ+EZzip/kAHITsjl3VLWl89EPUBNvFSCYCek2xERvMJvxv8ygxs37sgHwD2rUDR6Aj/RtJHNmW0RvA5ndR7/vsF9SZaGVNAvTFVpYzTZgnsRMHZI02nohFu90apB6WhigaaPI/ooCisxAVvNBqHKgYfkJi+URPXAlzqxAnvtTP1btJ1/npGxmjENBBm8KxDaigOB8U8Fcnea7g7OP/cirHV8zwWTQpJ5cBvpEQJpRInQ/r0ca1JWrFFJcfVwnzL7kw+dmQP5PC5uWyufyAkg/ZtHnidcFXLVvyyBRmIUXtnPqIxaukd0U/98XLZMXD8oMOSahzOH8vrZbhHD7rSN+qgVsavSO5QwTyMsdCZQkskxTcBzqzZsvgS4jERJw1Z6milAJ8AVWrZx1pccD/ChrqyB8RWVPDn2dbeOH2qhlVHvql4HE0abol6Q4b3ni7nY7AJOOZeR/u0KaPfrrNpeAfXcltQxX2J9RG7iRSF4LnJyDblbouBvtdHVc4CAOtoW5uTEpvXnTovKyLlUgDv9ePMo9a6wdv6IO3KMJSxWJOJDMHPdF0Miz16+hQzAtDT9dzhE0AwgA="
+
+
 script:
 - hexo clean
 - hexo g
 - hexo d
-- git push
-- git log
+- git config --global push.default simple
+- git add .
+- git commit -m "Deploy to GitHub Pages"
+
+# Force push from the current repo's master branch to the remote
+# repo's gh-pages branch. (All previous history on the gh-pages branch
+# will be lost, since we are overwriting it.) We redirect any output to
+# /dev/null to hide any sensitive credential data that might otherwise be exposed.
+- git push --force --quiet "https://${BLOG_TOKEN}@${GH_REF}" blog:niasand.github.io > /dev/null 2>&1
+
