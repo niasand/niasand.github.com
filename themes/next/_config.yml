@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2015
 
 
 
@@ -28,10 +28,10 @@ rss:
 menu:
   home: /
   #categories: /categories
-  #about: /about
+  about: /about
   archives: /archives
-  tags: /tags
-  #commonweal: /404.html
+  #tags: /tags
+  commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -77,7 +77,7 @@ scheme: Muse
 social_icons:
   enable: true
   # Icon Mappings
-  GitHub: github
+  GitHub: https://github.com/niasand
   Twitter: https://twitter.com/_B_B_8_
   Weibo: weibo
 
@@ -86,7 +86,7 @@ social_icons:
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-#avatar:
+avatar: /images/avatar.jpg
 
 
 # TOC in the Sidebar
