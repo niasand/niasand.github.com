@@ -28,9 +28,9 @@ since: 2016
 menu:
   home: /
   #categories: /categories
-  #about: /about
+  about: /about
   archives: /archives
-  #tags: /tags
+  tags: /tags
   #commonweal: /404.html
 
 
@@ -48,6 +48,7 @@ menu_icons:
   #tags: tags
   archives: archive
   commonweal: heartbeat
+  icon_font: yang
 
 
 
