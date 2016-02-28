@@ -1,7 +1,7 @@
 ---
 title: Appium API Note
 date: 2016-02-28 17:24:15
-tags:appium
+tags: appium
 ---
 
 ### Appium API(Python版)笔记
