@@ -48,7 +48,7 @@ menu_icons:
   #tags: tags
   archives: archive
   commonweal: heartbeat
-  icon_font: yang
+  #icon_font: yang
 
 
 
@@ -72,7 +72,7 @@ scheme: Muse
 # Social links
 social:
   GitHub: https://github.com/niasand
-  Others: https://twitter.com/_B_B_8_
+  Twitter: https://twitter.com/_B_B_8_
 
 # Social Icons
 social_icons:
