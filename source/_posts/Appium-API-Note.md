@@ -145,6 +145,22 @@ element.text     ios使用(获取元素的value值)
 
 ```python
 driver.find_element_by_ios_uiautomation(uia_string)
+driver.find_elements_by_ios_uiautomation(uia_string)
+driver.find_element_by_android_uiautomator(uia_string)
+driver.find_elements_by_android_uiautomator(uia_string)
+driver.find_element_by_android_uiautomator('new UiSelector().text("竞彩篮球")')
+driver.find_element_by_accessibility_id(id)
+driver.find_elements_by_accessibility_id(id)
+driver.find_element_by_id(id)
+driver.find_elements_by_id(id)
+driver.find_element_by_xpath(xpath)
+driver.find_elements_by_xpath(xpath)
+driver.find_element_by_name(name)
+driver.find_elements_by_name(name)
+driver.find_element_by_class_name(class)
+driver.find_elements_by_class_name(class)
+driver.find_element(by,value)
+by:"id"、"xpath"、"class name"、 "name"、'-ios uiautomation'、'-android uiautomator'、'accessibility id'
 ```
 
 坐标点击
