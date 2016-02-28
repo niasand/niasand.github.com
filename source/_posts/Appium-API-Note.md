@@ -127,6 +127,7 @@ path = "/data/local/tmp/file.txt"
 driver.push_file(path, data.encode('base64'))
 ```
 
+<!--more-->
 
 打印页面元素
 
