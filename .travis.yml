@@ -39,3 +39,7 @@ script:
 - hexo clean
 - hexo g
 - hexo d
+
+notifications:
+  webhooks:
+    - https://jianliao.com/v2/services/webhook/6dca89c029dc032edfdf08ca0e030d496aacc9c6
