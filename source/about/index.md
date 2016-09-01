@@ -1,10 +1,10 @@
 ---
-title: about
+title: 关于我
 date: 2016-01-27 22:26:46
 ---
 
 
 
-我的微信公众号，欢迎关注。
+我的微信公众号，欢迎关注。:-)
 
-![微信公众号二维码](http://7jpsil.com1.z0.glb.clouddn.com/qrcode_for_gh_a2747902d651_258.jpg)
+![机器人在思考](http://7jpsil.com1.z0.glb.clouddn.com/qrcode_for_gh_a2747902d651_258.jpg)
