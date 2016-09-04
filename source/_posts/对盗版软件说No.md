@@ -42,7 +42,7 @@ tags: 杂谈,支持正版
 |        Idea         |       Eclipse        |
 |       Charles       | Mitmproxy+Wiresharks |
 | SQLPro for *SQLite* |    sqlitebrowser     |
-|  Sublime Text 破解版   |  Sublime Text 未注册版   |
+|  Sublime Text 破解版 |    Atom              |
 |       Office        |      Google Doc      |
 
 其他免费软件：
