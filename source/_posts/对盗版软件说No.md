@@ -26,7 +26,7 @@ tags: 杂谈, 支持正版
 
 - Office 2010
 
-  ![Office 2010](http://7jpsil.com1.z0.glb.clouddn.com/kelilo%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-09-07%2022.17.44.png)
+  ![Office 2010](http://7jpsil.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-09-07%2023.24.37.png)
 
 - Windows 7
 
