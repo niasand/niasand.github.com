@@ -22,7 +22,7 @@ tags: 杂谈, 支持正版
 
 - Mybase:
 
-  ![Mybase](http://7jpsil.com1.z0.glb.clouddn.com/kelilo%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-09-01%2022.23.45.png)
+  ![Mybase](http://7jpsil.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-09-25%2001.13.06.png)
 
 - Office 2010
 
@@ -30,7 +30,7 @@ tags: 杂谈, 支持正版
 
 - Windows 7
 
-  ![Windows 7](http://7jpsil.com1.z0.glb.clouddn.com/kelilo%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-09-07%2022.17.22.png)
+  ![Windows 7](http://7jpsil.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-09-25%2001.12.00.png)
 
   ​
 
